@@ -1,0 +1,14 @@
+#!/bin/sh
+
+xrandr --rate 75
+setxkbmap -option "caps:escape_shifted_capslock"
+setxkbmap -model pc105 -layout us,ru -option grp:win_space_toggle
+xset r rate 190 35
+
+autostart = "pipewire"
+
+for program in $autostart; do
+    pidof -sx "$program" || "$program" &
+done >/dev/null 2>&1
+
+eval ~/.fehbg
