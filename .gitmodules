@@ -7,3 +7,7 @@
 [submodule "suckless/st"]
 	path = suckless/st
 	url = https://github.com/LastLosts/st
+[submodule "waylandshit/dwl"]
+	path = waylandshit/dwl
+    url = https://codeberg.org/dwl/dwl
+    branch = 0.7
