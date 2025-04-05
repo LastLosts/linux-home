@@ -1,0 +1,9 @@
+[submodule "suckless/dwm"]
+	path = suckless/dwm
+	url = https://github.com/LastLosts/dwm
+[submodule "suckless/dmenu"]
+	path = suckless/dmenu
+	url = https://github.com/LastLosts/dmenu
+[submodule "suckless/st"]
+	path = suckless/st
+	url = https://github.com/LastLosts/st
